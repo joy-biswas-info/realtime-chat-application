@@ -5,8 +5,8 @@ const ChatList = () => {
 
   return (
     <div className="my-10 h-[80vh] overflow-scroll">
-      <div className="search flex my-4">
-        <div className="searchBar flex bg-gray-900/50 items-center rounded-3xl px-4">
+      <div className="search flex my-4 justify-between">
+        <div className="searchBar flex bg-gray-900/50 items-center rounded-3xl px-4 flex-1">
           <img src="/search.png" alt="" className="w-5 h-5" />
           <input
             type="text"
