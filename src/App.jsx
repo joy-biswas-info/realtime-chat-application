@@ -6,7 +6,7 @@ import Login from "./components/login/Login";
 import Notification from "./components/notification/Notification";
 
 const App = () => {
-  const user = false;
+  const user = true;
   return (
     <div
       className="container-fluid h-[100vh] flex items-center justify-center"

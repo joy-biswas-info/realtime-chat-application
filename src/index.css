@@ -40,9 +40,9 @@
   cursor: pointer;
 }
 
-input,
-input:focus,
-input:active {
+.login input,
+.login input:focus,
+.login input:active {
   padding: 15px;
   border: none;
   outline: none;

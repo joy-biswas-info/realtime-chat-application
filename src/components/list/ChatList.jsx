@@ -1,19 +1,20 @@
 import { useState } from "react";
+import AddUser from "../addUser/AddUser";
 
 const ChatList = () => {
   const [addMode, setAddMode] = useState(false);
 
   return (
     <div className="my-10 h-[80vh] overflow-scroll">
-      <div className="search flex my-4 justify-between">
-        <div className="searchBar flex bg-gray-900/50 items-center rounded-3xl px-4 flex-1">
+      <div className="search flex my-4 justify-between items-center">
+        <div className="searchBar flex bg-gray-900/50 items-center rounded-full px-2 py-1 w-[90%]">
           <img src="/search.png" alt="" className="w-5 h-5" />
           <input
             type="text"
             name=""
             id=""
             placeholder="Search chat"
-            className="px-1 border-collapse focus:border-collapse focus:outline-none bg-gray-900/0"
+            className="px-1 border-collapse focus:border-collapse focus:outline-none bg-gray-900/0 "
           />
         </div>
         <img
@@ -79,6 +80,7 @@ const ChatList = () => {
           <p>Hello</p>
         </div>
       </div>
+      {addMode ? <AddUser /> : null}
     </div>
   );
 };
