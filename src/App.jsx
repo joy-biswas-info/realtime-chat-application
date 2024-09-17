@@ -17,7 +17,7 @@ const App = () => {
         <div className="chat border-r border-gray-400" style={{ flex: 2 }}>
           <Chat />
         </div>
-        <div className="details" style={{ flex: 1 }}>
+        <div className="" style={{ flex: 1 }}>
           <Detail />
         </div>
       </div>
